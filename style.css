@@ -1,65 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+body {
+	background-color:#222222;
+	margin: 0;
+	font-family: 'Kanit';
+}
+
 h1 {
-    font-family: 'Kanit';
-    font-size: xxx-large;
-    text-align: center;
-    color: #555;
-    display: block;
-    background-color: #050505;
-    margin-left: -10;
-    margin-right: -10;
-    margin-top: -10;
-}
-
-h2 {
-    font-family: 'Kanit';
-}
-
-h3 {
-    font-family: 'Kanit';
-}
-
-p {
-    font-family: 'Kanit';
+	font-size: 50px;
+	text-align: center;
+	color: #555;
+	display: block;
+	background-color: #050505;
+	margin: 0;
 }
 
 ul {
-    list-style-type: none;
-    margin: -10;
-    margin-top: -32;
-    margin-bottom: 25;
-    padding: 0;
-    overflow: hidden;
-    background-color: #353535;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    color: #353535;
-    background-color: #111;
-  }
+	list-style-type: none;
+	margin: 0;
+	margin-bottom: 25;
+	padding: 0;
+	overflow: hidden;
+	background-color: #353535;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	color: #353535;
+	background-color: #111;
+}
 
 .active {
-    background-color: #050500;
-    color: white;
+	background-color: #050500;
+	color: white;
 }
 
 .unbulleted-list {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 iframe {
-  margin-top: 50px;
+	margin-top: 50px;
 }
