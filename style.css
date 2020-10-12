@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
 body {
-	background-color:#222222;
+	background-color:#000000;
 	margin: 0;
 	font-family: 'Kanit';
 }
@@ -8,7 +8,7 @@ body {
 h1 {
 	font-size: 50px;
 	text-align: center;
-	color: #555;
+	color: #880015;
 	display: block;
 	background-color: #050505;
 	margin: 0;
@@ -20,7 +20,7 @@ ul {
 	margin-bottom: 25;
 	padding: 0;
 	overflow: hidden;
-	background-color: #353535;
+	background-color: #111111;
 }
 
 li {
@@ -29,7 +29,8 @@ li {
 
 li a {
 	display: block;
-	color: rgb(0, 0, 0);
+    color: #880015;
+    background-color: #111111;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -38,7 +39,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-	color: #353535;
+	color: #ffffff;
 	background-color: #111;
 }
 
