@@ -1,17 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
 body {
-	background-color:#000000;
+	background-color:#050505;
+	background-image: url(https://cdn.discordapp.com/attachments/732419207559380993/777236510831411230/wertbj.png);
+	background-position-y: 50px;
 	margin: 0;
 	font-family: 'Kanit';
 }
 
 h1 {
-	font-size: 50px;
-	text-align: center;
+	font-size: 30px;
+	text-align: left;
 	color: #880015;
 	display: block;
+	margin: 0px;
+	margin-left: 2px;
+}
+
+header {
 	background-color: #050505;
-	margin: 0;
 }
 
 ul {
@@ -20,7 +26,7 @@ ul {
 	margin-bottom: 25;
 	padding: 0;
 	overflow: hidden;
-	background-color: #111111;
+	background-color: #880015;
 }
 
 li {
@@ -29,8 +35,8 @@ li {
 
 li a {
 	display: block;
-    color: #880015;
-    background-color: #111111;
+    color: #111111;
+    background-color: #880015;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -39,8 +45,8 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-	color: #ffffff;
-	background-color: #111;
+	color: #880015;
+	background-color: #111111;
 }
 
 .active {
@@ -54,4 +60,11 @@ li a:hover {
 
 iframe {
 	margin-top: 50px;
+	margin-left: 2px;
+}
+
+main {
+	color: #000000;
+	margin: 20px;
+	text-align: center;
 }
