@@ -15,7 +15,14 @@ h1 {
 	margin: 0px;
 	margin-left: 2px;
 }
-
+h2 {
+	font-size: 28px;
+	text-decoration: #880015;
+}
+h3 {
+	font-size: 28px;
+	color: #880015;
+}
 header {
 	background-color: #050505;
 }
